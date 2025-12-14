@@ -8,7 +8,7 @@ import { redirect } from "next/navigation";
 
 const cookieConfig = {
   maxAge: 60 * 60 * 24 * 7,
-  httpOnly: true,
+  httpOnly: false,
   path: "/",
   domain: process.env.HOST ?? "localhost",
   secure: process.env.NODE_ENV === "production",
