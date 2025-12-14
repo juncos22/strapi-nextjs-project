@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 40, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Asus/Proyectos/next-js-16-strapi-app/frontend/proxy.ts"],"sourcesContent":["import { NextRequest } from \"next/server\";\r\n\r\nconst protectedRoutes = [\"/dashboard\"];\r\n\r\nfunction checkIsProtectedRoute(path: string) {\r\n  return protectedRoutes.includes(path);\r\n}\r\nexport async function proxy(request: NextRequest) {\r\n  const currentPath = request.nextUrl.pathname;\r\n  const isProtectedRoute = checkIsProtectedRoute(currentPath);\r\n  if (isProtectedRoute) {\r\n    const token = request.cookies.get(\"token\")?.value;\r\n    if (!token) {\r\n      return new Response(\"Unauthorized\", {\r\n        status: 401,\r\n      });\r\n    }\r\n  }\r\n  return Next\r\n}\r\n"],"names":[],"mappings":";;;;AAEA,MAAM,kBAAkB;IAAC;CAAa;AAEtC,SAAS,sBAAsB,IAAY;IACzC,OAAO,gBAAgB,QAAQ,CAAC;AAClC;AACO,eAAe,MAAM,OAAoB;IAC9C,MAAM,cAAc,QAAQ,OAAO,CAAC,QAAQ;IAC5C,MAAM,mBAAmB,sBAAsB;IAC/C,IAAI,kBAAkB;QACpB,MAAM,QAAQ,QAAQ,OAAO,CAAC,GAAG,CAAC,UAAU;QAC5C,IAAI,CAAC,OAAO;YACV,OAAO,IAAI,SAAS,gBAAgB;gBAClC,QAAQ;YACV;QACF;IACF;IACA,OAAO;AACT"}}]
+}

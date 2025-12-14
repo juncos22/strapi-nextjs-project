@@ -1,0 +1,36 @@
+{
+  "node": {
+    "6007793944c0ff448ef5fd35507a9886c9ca8152f8": {
+      "workers": {
+        "app/(auth)/signup/page": {
+          "moduleId": "[project]/.next-internal/server/app/(auth)/signup/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/auth.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "registerUserAction",
+          "filename": "actions/auth.ts"
+        }
+      },
+      "layer": {
+        "app/(auth)/signup/page": "action-browser"
+      },
+      "filename": "actions/auth.ts",
+      "exportedName": "registerUserAction"
+    },
+    "80f6391c9d236ca789e62a5326b97676e8c36ceec2": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/strapi.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "$$RSC_SERVER_CACHE_0",
+          "filename": "lib/strapi.ts"
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      },
+      "filename": "lib/strapi.ts",
+      "exportedName": "$$RSC_SERVER_CACHE_0"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "s7De0zRfbH0iIAeEsSNQZYQcmznkOgj/f1sfd9APc6w="
+}

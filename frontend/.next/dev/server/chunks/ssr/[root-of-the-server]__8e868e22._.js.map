@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Asus/Proyectos/next-js-16-strapi-app/frontend/app/%28auth%29/signup/page.tsx"],"sourcesContent":["import AuthLayout from \"../layout\";\r\n\r\nexport default function SignUpRoute() {\r\n  return (\r\n    <AuthLayout>\r\n      <h1>Sign Up Route</h1>\r\n    </AuthLayout>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,6VAAC,qIAAU;kBACT,cAAA,6VAAC;sBAAG;;;;;;;;;;;AAGV"}}]
+}

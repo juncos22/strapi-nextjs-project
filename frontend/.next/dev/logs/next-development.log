@@ -1,0 +1,16 @@
+[00:00:02.268] Server  LOG      ✓ Ready in 1691ms
+[00:01:22.299] Browser LOG     {"data":{"email":"","password":"","username":""}}
+[00:01:22.299] Browser LOG     [2;38;2;124;124;124m%s[0m {"data":{"email":"","password":"","username":""}}
+[00:01:35.096] Browser LOG     {"data":{"email":"","password":"","username":""}}
+[00:01:35.096] Browser LOG     [2;38;2;124;124;124m%s[0m {"data":{"email":"","password":"","username":""}}
+[00:01:57.628] Server  LOG     Hello from RegisterUserAction: {}
+[00:01:57.667] Browser LOG     {"data":{"email":"","password":"","username":""}}
+[00:01:57.667] Browser LOG     [2;38;2;124;124;124m%s[0m {"data":{"email":"","password":"","username":""}}
+[00:01:57.860] Server  LOG     User Response: {}
+[00:02:07.519] Server  LOG     User Response: {}
+[00:02:15.064] Server  LOG     User Response: {}
+[00:02:49.734] Server  LOG      ✓ Compiled in 87ms
+[00:02:55.362] Server  LOG     User Response: {}
+[00:05:19.383] Server  LOG     {}
+[00:05:19.390] Server  LOG     [ Cache ] {}
+[00:05:19.433] Server  LOG     [ Cache ] {}

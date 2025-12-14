@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Asus/Proyectos/next-js-16-strapi-app/frontend/app/dashboard/page.tsx"],"sourcesContent":["export default function DashboardRoute() {\r\n  return (\r\n    <div className=\"flex flex-col items-center justify-center min-h-screen bg-gray-100 dark:bg-gray-900\">\r\n      <h1>Dashboard</h1>\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,6VAAC;QAAI,WAAU;kBACb,cAAA,6VAAC;sBAAG;;;;;;;;;;;AAGV"}}]
+}
