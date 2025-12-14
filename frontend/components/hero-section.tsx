@@ -26,7 +26,7 @@ export default async function HeroSection({
       <Item key={data.id} variant="outline" className="w-full">
         <ItemHeader>
           <img
-            src={`${STRAPI_BASE_URL}${data.image.url}`}
+            src={`${data.image.url}`}
             alt={data.image.alternativeText || "Image"}
             className="aspect-square w-full h-80 rounded-sm object-cover"
           />
